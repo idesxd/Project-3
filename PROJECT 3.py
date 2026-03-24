@@ -98,4 +98,4 @@ commander2.addCreature(c2)
 
 commander1.battle(commander2)
 
-print(commander1.hitPoints, commander2.hitPoints)
+print("Commander 1 Hit Points:", commander1.hitPoints, ",", "Commander 2 Hit Points:", commander2.hitPoints)
