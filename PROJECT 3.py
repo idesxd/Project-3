@@ -1,3 +1,6 @@
+# CITATION:
+# GeeksforGeeks. "Insertion Sort for Singly Linked List"
+# https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/
 class Creature:
     def __init__(self, strength, defense):
         self.strength = strength
@@ -81,7 +84,7 @@ class Commander:
                 self.hitPoints -= curr.strength
                 curr = curr.next
 
-#EXAMPLE RUN:
+#CITATION: MAKE AN EXAMPLE RUN FOR THIS [pasted the code]:
 c1 = Creature(10, 5)
 c1.next = Creature(8, 6)
 
